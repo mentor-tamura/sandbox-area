@@ -2,7 +2,7 @@ def test(arg)
   yield arg, arg
 end
 
-test "pass2" do |*argument|
+test "pass3" do |*argument|
   p argument
 end
 
