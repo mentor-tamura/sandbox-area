@@ -1,5 +1,5 @@
-def test(arg)
-  yield arg, arg
+def test
+  yield $_[0]
 end
 
 test "pass3" do |*argument|
