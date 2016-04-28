@@ -3,7 +3,7 @@ def test(arg)
 end
 
 def test2
-  p $_[0]
+  p $_
 end
 
 test "pass3" do |*argument|
