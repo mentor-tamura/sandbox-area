@@ -10,5 +10,4 @@ test "pass3" do |*argument|
   p argument
 end
 
-test2(3)
-
+test2
