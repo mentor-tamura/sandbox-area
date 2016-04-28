@@ -1,12 +1,12 @@
-def test
-  yield $_[0]
+def test(arg)
+  yield arg
 end
 
 def test2
-  yield $_[0]
+  yield
 end
 
-test2 "pass3" do |*argument|
+test "pass3" do |*argument|
   p argument
 end
 
