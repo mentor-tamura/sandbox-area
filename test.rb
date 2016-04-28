@@ -3,10 +3,12 @@ def test(arg)
 end
 
 def test2
-  yield
+  p $_[0]
 end
 
 test "pass3" do |*argument|
   p argument
 end
+
+test2(3)
 
