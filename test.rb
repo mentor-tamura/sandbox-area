@@ -12,5 +12,6 @@ end
 
 test2
 
-1.upto(10) do {|n| p n }
-
+1.upto(10) do { |n|
+  p n
+}
