@@ -11,3 +11,6 @@ test "pass3" do |*argument|
 end
 
 test2
+
+1.upto(10) do {|n| p n }
+
