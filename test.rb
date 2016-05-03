@@ -12,6 +12,6 @@ end
 
 test2
 
-1.upto(10) do { |n|
+1.upto(10) { |n|
   p n
 }
